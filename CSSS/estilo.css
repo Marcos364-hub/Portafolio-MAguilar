@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    background-color: rgb(8, 224, 224);
+}
+
+h1,h2{
+    font-family: "Bitcount Prop Single Ink";
+}
+p{
+    font-family: "Lato", sans-serif;
+}
+
+header{
+    text-align: center;
+    border-bottom:solid 6px rgb(231, 19, 136);
+    margin-bottom: 50px;
+    padding: 30px;
+}
