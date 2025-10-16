@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <title>Portafolio profesional</title>  <!--TITULO DEL ARCHIVO -->
-    <link rel="stylesheet" href="css/# estilo.css/">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body> <!--AQUI VA TODO LO QUE USUARIO VE-->
     <header>
@@ -11,27 +11,28 @@
     <p>Desarollador fullstack | Estudiante de Ingenieria en TI</p>
     </header>
     <!-- CREANDO UN MENU DE NAVEGACION -->
-     <nav>
-        <a href="#">Inicio</a> <!-- CREAE enlaces -->
-        <a href="#">Sobre mi</a>
-         <a href="#">mi experiencia</a>
-          <a href="#">contactame</a>
+     <nav id="menu pricipal">
+        <li><a href="#bienvenida">Sobre mi</a></li>
+        <li><a href="#experiencia">mi experiencia</a></li>
+        <li><a href="#Habilidades"></a>Habilidades</li>
+         <li><a href="#">contactame</a></li>
      </nav>
  <!-- PARTE PRINCIPAL -->
     <main>
-        <section>
+        <section id="Bienvenida">
             <h2>Bienvenidos a mi portafolio Profesional</h2>
-            <p>Soy  <mark>Marcos Agueilar</mark> me especializo en <strong>tecnologias de la informacion</p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+            <p>Soy  <mark>Marcos Aguilar</mark> me especializo en <strong>tecnologias de la informacion</p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
             </p>
             <p><smal>Mi frase favorita es<em>"Primero resuelvo,</em>primero resuelvo,despues codifico"</smal></p>
             <img src="/images/Proyecto nuevo.jpg" alt="foto de perfil" width="300" height="400" id="foto de perfil" /> 
             <aside>
                 <h3>¿Sabias que...?</h3>
-                <p>Actualmente estudio la carrera de TEcnologias de la Informacion e Inovacion Digital</p>
+                <p>Actualmente estudio la carrera de Tecnologias de la Informacion e Inovacion Digital</p>
             </aside>
         </section>
-        <section>
+        <section id="experiencia">
             <h2>Experiencia profesional</h2>
+            <div id="lista de proyectos">
             <article>
                 <h3>Proyecto Integrador</h3>
                 <p>This course will be quite a long journey</p>
@@ -65,6 +66,38 @@
 <li>Trabajo en equipo</li>
                 </ul>
             </article>
+            </div>
+        </section>
+        <section>
+            <h2>Habilidadess y competencias</h2>
+            <h3>Lenguajes y Tecnologias</h3>
+            <ul>
+                <li>HTMLS</li>
+                <li>CSS</li>
+                <li>Js</li>
+                <li>C#</li>
+            </ul>
+        </section>
+        <section id="contacto">
+            <h2>Contactame</h2>
+            <form>
+                <div class="campos">
+                    <label>Nombre completo</label>
+                <input type="Text" value="" placeholder="Nombre completo" />  
+                </div>
+            <div class="campos">
+                <label>Correo Electronico</label>
+                <input type="Email" value=""  placeholder="ejemplo@gmail.com" />
+            </div> 
+            <div class="campos">
+                <label>Mensaje</label>
+                <textarea></textarea>
+            </div>
+            <div class="campos">
+                <!--input type="button" value="enviar" /-->
+               <button type="submit">Enviar</button>
+            </div>
+            </form>
         </section>
     </main>
     <!--PIE DE PAGINA-->
