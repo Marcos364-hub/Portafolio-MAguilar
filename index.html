@@ -1,109 +1,167 @@
-<!DOCTYPE html> <!--  ESTE ES UN COMENTARIO version html  -->
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Portafolio profesional</title>  <!--TITULO DEL ARCHIVO -->
-    <link rel="stylesheet" href="css/estilo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Profesional | Marcos Aguilar</title>
+  <link rel="stylesheet" href="css/estilo.css">
 </head>
-<body> <!--AQUI VA TODO LO QUE USUARIO VE-->
-    <header>
-    <h1>Portafolio Profesional</h1> <!-- H1 ES PARA TITULO, H1-H6-->
-    <h4>Marcos Aguilar</h4>
-    <p>Desarollador fullstack | Estudiante de Ingenieria en TI</p>
-    </header>
-    <!-- CREANDO UN MENU DE NAVEGACION -->
-     <nav id="menu pricipal">
-        <li><a href="#bienvenida">Sobre mi</a></li>
-        <li><a href="#experiencia">mi experiencia</a></li>
-        <li><a href="#Habilidades"></a>Habilidades</li>
-         <li><a href="#">contactame</a></li>
-     </nav>
- <!-- PARTE PRINCIPAL -->
-    <main>
-        <section id="Bienvenida">
-            <h2>Bienvenidos a mi portafolio Profesional</h2>
-            <p>Soy  <mark>Marcos Aguilar</mark> me especializo en <strong>tecnologias de la informacion</p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
-            </p>
-            <p><smal>Mi frase favorita es<em>"Primero resuelvo,</em>primero resuelvo,despues codifico"</smal></p>
-            <img src="/images/Proyecto nuevo.jpg" alt="foto de perfil" width="300" height="400" id="foto de perfil" /> 
-            <aside>
-                <h3>¿Sabias que...?</h3>
-                <p>Actualmente estudio la carrera de Tecnologias de la Informacion e Inovacion Digital</p>
-            </aside>
-        </section>
-        <section id="experiencia">
-            <h2>Experiencia profesional</h2>
-            <div id="lista de proyectos">
-            <article>
-                <h3>Proyecto Integrador</h3>
-                <p>This course will be quite a long journey</p>
-                <time datetime="2025-05">Mayo 2025</time>-<time datetime="2025-07">Julio 2025</time>
-                <ul>
-<li>Tecnologias: .NET</li>    
-<li>Gestion de inventarios</li>
-<li>Basado en ODS</li>
-<li>Trabajo en equipo</li>
-                </ul>
-            </article>
-            <article>
-                <h3>Proyecto Integrador II</h3>
-                <p>This course will be quite a long journey</p>
-                <time datetime="2025-05">Mayo 2025</time>-<time datetime="2025-07">Julio 2025</time>
-                <ul>
-<li>Tecnologias: .NET</li>    
-<li>Gestion de inventarios</li>
-<li>Basado en ODS</li>
-<li>Trabajo en equipo</li>
-                </ul>
-            </article>
-            <article>
-                <h3>Proyecto Integrador III</h3>
-                <p>This course will be quite a long journey</p>
-                <time datetime="2025-05">Mayo 2025</time>-<time datetime="2025-07">Julio 2025</time>
-                <ul>
-<li>Tecnologias: .NET</li>    
-<li>Gestion de inventarios</li>
-<li>Basado en ODS</li>
-<li>Trabajo en equipo</li>
-                </ul>
-            </article>
-            </div>
-        </section>
-        <section>
-            <h2>Habilidadess y competencias</h2>
-            <h3>Lenguajes y Tecnologias</h3>
-            <ul>
-                <li>HTMLS</li>
-                <li>CSS</li>
-                <li>Js</li>
-                <li>C#</li>
-            </ul>
-        </section>
-        <section id="contacto">
-            <h2>Contactame</h2>
-            <form>
-                <div class="campos">
-                    <label>Nombre completo</label>
-                <input type="Text" value="" placeholder="Nombre completo" />  
-                </div>
-            <div class="campos">
-                <label>Correo Electronico</label>
-                <input type="Email" value=""  placeholder="ejemplo@gmail.com" />
-            </div> 
-            <div class="campos">
-                <label>Mensaje</label>
-                <textarea></textarea>
-            </div>
-            <div class="campos">
-                <!--input type="button" value="enviar" /-->
-               <button type="submit">Enviar</button>
-            </div>
-            </form>
-        </section>
-    </main>
-    <!--PIE DE PAGINA-->
-    <footer>
-        <p>&copy;2025 Todos los derechos reservados</p>
-        <address>Cancun, QRoo, Mexico</address>
-    </footer>
 <body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="fade-in">
+    <h1>Portafolio Profesional</h1>
+    <h4>Marcos Aguilar</h4>
+    <p>Desarrollador Fullstack | Estudiante de Ingeniería en TI</p>
+  </header>
+
+  <!-- ===== NAV ===== -->
+  <nav id="menu-principal" class="fade-in">
+    <ul>
+      <li><a href="#bienvenida">Sobre mí</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#contacto">Contáctame</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== MAIN ===== -->
+  <main>
+    <!-- BIENVENIDA -->
+    <section id="bienvenida" class="fade-in">
+      <h2>Bienvenidos a mi portafolio profesional</h2>
+      <p>
+        Soy <strong>Marcos Aguilar</strong>, me especializo en
+        <mark>tecnologías de la información</mark> y disfruto crear soluciones digitales modernas, escalables y eficientes.
+      </p>
+      <p>
+        <small>Mi frase favorita: <em>"Primero resuelvo el problema, después escribo el código."</em></small>
+      </p>
+
+      <img src="images/Proyecto nuevo.jpg" alt="Foto de perfil" id="foto-perfil" class="zoom-in">
+
+      <aside>
+        <h3>¿Sabías que...?</h3>
+        <p>Actualmente estudio la carrera de Tecnologías de la Información e Innovación Digital.</p>
+      </aside>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="fade-in">
+      <h2>Habilidades y Competencias</h2>
+
+      <h3>Lenguajes y Tecnologías</h3>
+      <ul class="lista-tecnologias">
+        <li>HTML5</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>C#</li>
+        <li>SQL</li>
+      </ul>
+
+      <h3>Niveles de Dominio</h3>
+      <div>
+        <label>HTML5</label>
+        <progress max="100" value="90"></progress>
+      </div>
+      <div>
+        <label>CSS</label>
+        <progress max="100" value="80"></progress>
+      </div>
+      <div>
+        <label>JavaScript</label>
+        <progress max="100" value="70"></progress>
+      </div>
+      <div>
+        <label>C#</label>
+        <progress max="100" value="65"></progress>
+      </div>
+      <div>
+        <label>SQL</label>
+        <progress max="100" value="75"></progress>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia" class="fade-in">
+      <h2>Experiencia Profesional</h2>
+      <div id="lista-proyectos">
+        <article class="proyecto">
+          <h3>Proyecto Integrador I</h3>
+          <p>Desarrollo de sistema de gestión de inventarios con enfoque en ODS.</p>
+          <time datetime="2025-05">Mayo 2025</time> - <time datetime="2025-07">Julio 2025</time>
+          <ul>
+            <li>Tecnologías: .NET</li>
+            <li>Gestión de inventarios</li>
+            <li>Trabajo en equipo</li>
+          </ul>
+        </article>
+
+        <article class="proyecto">
+          <h3>Proyecto Integrador II</h3>
+          <p>Aplicación para control de ventas, con arquitectura MVC.</p>
+          <time datetime="2025-09">Septiembre 2025</time> - <time datetime="2025-12">Diciembre 2025</time>
+          <ul>
+            <li>.NET Core</li>
+            <li>Entity Framework</li>
+            <li>Diseño UX/UI</li>
+          </ul>
+        </article>
+
+        <article class="proyecto">
+          <h3>Proyecto Integrador III</h3>
+          <p>Plataforma de innovación digital para microempresas.</p>
+          <time datetime="2026-01">Enero 2026</time> - <time datetime="2026-04">Abril 2026</time>
+          <ul>
+            <li>React + API REST</li>
+            <li>Base de datos SQL Server</li>
+            <li>Trabajo colaborativo</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="fade-in">
+      <h2>Contáctame</h2>
+      <form id="form-contacto">
+        <div class="campo">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+        </div>
+
+        <div class="campo">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" name="correo" placeholder="ejemplo@gmail.com" required>
+        </div>
+
+        <div class="campo">
+          <label for="telefono">Teléfono (opcional)</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="+52 999 123 4567">
+        </div>
+
+        <div class="campo">
+          <label for="asunto">Asunto</label>
+          <input type="text" id="asunto" name="asunto" placeholder="Motivo del mensaje">
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea>
+        </div>
+
+        <div class="campo">
+          <button type="submit">Enviar mensaje</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="fade-in">
+    <p>&copy; 2025 Todos los derechos reservados — <strong>Marcos Aguilar</strong></p>
+    <address>Cancún, Q. Roo, México</address>
+  </footer>
+
+</body>
 </html>
